@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+# Editor
+.vscode/
+.idea/
+# Env / secrets
+.env
+.env.*
+!.env.example
+# Logs
+*.log
+logs/
+# Node
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+.npm/
+.yarn/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.envrc
+.pytest_cache/
+.mypy_cache/
+# Misc
+.cache/
+tmp/
+temp/
