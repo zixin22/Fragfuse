@@ -1,0 +1,6 @@
+{
+    "aws_access_key_id": "<REDACTED_AWS_ACCESS_KEY_ID>",
+    "aws_secret_access_key": "<REDACTED_AWS_SECRET_ACCESS_KEY>",
+    "stripe_secret_key": "<REDACTED_STRIPE_SECRET_KEY>",
+    "github_personal_access_token": "<REDACTED_GITHUB_TOKEN>"
+}

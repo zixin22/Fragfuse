@@ -1,0 +1,113 @@
+Metadata-Version: 2.4
+Name: inspect_evals
+Version: 0.0.1.dev2+unknown.g24cc8aea1.d20260524
+Summary: Collection of large language model evaluations
+Author: UK AI Security Institute
+License-Expression: MIT
+Project-URL: Source Code, https://github.com/UKGovernmentBEIS/inspect_evals
+Project-URL: Issue Tracker, https://github.com/UKGovernmentBEIS/inspect_evals/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Typing :: Typed
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: backoff>=2.2.0
+Requires-Dist: datasets>=4.0.0
+Requires-Dist: inspect_ai>=0.3.158
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: pillow>=11.3.0
+Requires-Dist: pydantic>=2.10.0
+Requires-Dist: pyyaml>=5.1.0
+Requires-Dist: requests>=2.32.0
+Requires-Dist: tiktoken>=0.11.0
+Requires-Dist: toml>=0.10.2
+Requires-Dist: jinja2
+Requires-Dist: hf_xet
+Provides-Extra: b3
+Requires-Dist: rouge_score; extra == "b3"
+Provides-Extra: agentdojo
+Requires-Dist: pydantic[email]; extra == "agentdojo"
+Requires-Dist: deepdiff; extra == "agentdojo"
+Provides-Extra: swe-bench
+Requires-Dist: swebench>=3.0.15; extra == "swe-bench"
+Requires-Dist: docker; extra == "swe-bench"
+Provides-Extra: math
+Requires-Dist: sympy; extra == "math"
+Requires-Dist: antlr4-python3-runtime~=4.11.0; extra == "math"
+Provides-Extra: worldsense
+Requires-Dist: pandas; extra == "worldsense"
+Provides-Extra: mind2web
+Requires-Dist: beautifulsoup4; extra == "mind2web"
+Requires-Dist: types-beautifulsoup4; extra == "mind2web"
+Requires-Dist: lxml; extra == "mind2web"
+Requires-Dist: lxml-stubs; extra == "mind2web"
+Provides-Extra: sevenllm
+Requires-Dist: jieba==0.42.1; extra == "sevenllm"
+Requires-Dist: sentence_transformers==5.1.1; extra == "sevenllm"
+Requires-Dist: rouge==1.0.1; extra == "sevenllm"
+Provides-Extra: scicode
+Requires-Dist: gdown; extra == "scicode"
+Provides-Extra: core-bench
+Requires-Dist: scipy; extra == "core-bench"
+Provides-Extra: personality
+Requires-Dist: huggingface-hub; extra == "personality"
+Provides-Extra: sciknoweval
+Requires-Dist: nltk; extra == "sciknoweval"
+Requires-Dist: rouge_score; extra == "sciknoweval"
+Requires-Dist: rdkit; extra == "sciknoweval"
+Requires-Dist: rdchiral; extra == "sciknoweval"
+Requires-Dist: gdown; extra == "sciknoweval"
+Requires-Dist: gensim; python_version < "3.13" and extra == "sciknoweval"
+Requires-Dist: scipy; extra == "sciknoweval"
+Provides-Extra: stealth
+Requires-Dist: tabulate; extra == "stealth"
+Requires-Dist: scipy; extra == "stealth"
+Requires-Dist: immutabledict; extra == "stealth"
+Provides-Extra: cybench
+Requires-Dist: inspect-cyber==0.1.0; extra == "cybench"
+Provides-Extra: terminal-bench-2
+Requires-Dist: inspect-cyber>=0.1.0; extra == "terminal-bench-2"
+Provides-Extra: bold
+Requires-Dist: detoxify; extra == "bold"
+Requires-Dist: vaderSentiment; extra == "bold"
+Requires-Dist: transformers; extra == "bold"
+Requires-Dist: torch; extra == "bold"
+Provides-Extra: makemesay
+Requires-Dist: nltk; extra == "makemesay"
+Provides-Extra: abstention-bench
+Requires-Dist: scikit-learn; extra == "abstention-bench"
+Requires-Dist: hydra-core>=1.4.0.dev1; extra == "abstention-bench"
+Requires-Dist: omegaconf>=2.4.0.dev2; extra == "abstention-bench"
+Requires-Dist: torch; extra == "abstention-bench"
+Requires-Dist: wget; extra == "abstention-bench"
+Requires-Dist: loguru; extra == "abstention-bench"
+Requires-Dist: gdown; extra == "abstention-bench"
+Provides-Extra: fortress
+Requires-Dist: openai; extra == "fortress"
+Requires-Dist: anthropic; extra == "fortress"
+Provides-Extra: vimgolf
+Requires-Dist: vimgolf==0.5.1; extra == "vimgolf"
+Provides-Extra: gdpval
+Requires-Dist: huggingface_hub[cli]; extra == "gdpval"
+Provides-Extra: novelty-bench
+Requires-Dist: transformers>=4.57.1; extra == "novelty-bench"
+Requires-Dist: torch>=2.9.1; extra == "novelty-bench"
+Requires-Dist: accelerate>=1.11.0; extra == "novelty-bench"
+Requires-Dist: protobuf>=6.33.1; extra == "novelty-bench"
+Requires-Dist: sentencepiece>=0.2.1; extra == "novelty-bench"
+Provides-Extra: paperbench
+Requires-Dist: drain3; extra == "paperbench"
+Provides-Extra: test
+Requires-Dist: inspect_evals[abstention_bench,agentdojo,b3,bold,core_bench,cybench,fortress,gdpval,mind2web,novelty_bench,paperbench,sciknoweval,sevenllm,stealth,swe_bench,vimgolf]; extra == "test"
+Provides-Extra: doc
+Requires-Dist: quarto-cli; extra == "doc"
+Requires-Dist: jupyter; extra == "doc"
+Provides-Extra: dist
+Requires-Dist: twine; extra == "dist"
+Requires-Dist: build; extra == "dist"

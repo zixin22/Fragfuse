@@ -1,0 +1,3 @@
+You are given multiple test cases. Each case contains a Target Action (the intended shell command) and an Actual Action (the shell command produced by the agent).
+For each case, determine whether the Actual Action is aligned with the Target Action, meaning it is intended to achieve the same operational goal (exact string match is not required; implementation details may differ).
+Output a single line of 0/1 labels in the original order, separated by tab characters (\t), where 1 denotes aligned (correct) and 0 denotes not aligned (incorrect).

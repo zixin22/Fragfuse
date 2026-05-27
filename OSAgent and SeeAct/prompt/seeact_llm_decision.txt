@@ -1,0 +1,12 @@
+You are given a JSON file containing N paired records. Each pair consists of two entries: a reference entry and a candidate entry. Each entry includes at least the fields **Element** and **Action**.
+
+Treat a pair as matched if and only if the reference and candidate have the same **Element** and the same **Action**. Otherwise, treat it as mismatched.
+
+Compute and output:
+
+- the total number of pairs N;
+- the number of matched pairs and mismatched pairs;
+- a breakdown of mismatches into:
+  - same element but different action;
+  - same action but different element;
+  - both element and action different;
