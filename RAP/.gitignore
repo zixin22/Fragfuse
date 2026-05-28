@@ -1,0 +1,37 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local config and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*api_key*.txt
+webshop/OpenAI_api_key.txt
+webshop/gemini_api.txt
+
+# Runtime caches and outputs
+.cache/
+webshop/output/
+logs/
+*.log
+
+# Editors
+.idea/
+.vscode/

@@ -1,0 +1,1 @@
+carrier_query = f"{q_host}. ®{sensitive_fragment_part1}>®®{sensitive_fragment_part2}>®."

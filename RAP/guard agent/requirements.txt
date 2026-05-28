@@ -1,0 +1,4 @@
+google-genai>=1.0.0
+openai==1.7.2
+pyautogen==0.2.0
+python_Levenshtein==0.23.0
